@@ -51,47 +51,12 @@ void bubblesort_vector()
 	for (i = arr.begin(); i != arr.end(); ++i)
 		cout << *i << "\n";
 	cout << endl;
-	cout << endl;
 	bubblesort(arr);
 	cout << "\nArray after sorting:" << endl;
 	for (i = arr.begin(); i != arr.end(); ++i)
 		cout << *i << "\n";
 	cout << endl;
 }
-/*
-int lcm(int a, int b)
-{
-	int l = a;
-
-	while (1){
-		if (l % b == 0 && l % a == 0)
-			break;
-		l++;
-	}
-	return l;
-}
-
-void lcm_computation(void)
-{
-	int x, y = 1;
-	cout << "\n\nEnter positive integers. To quit press zero." << endl;
-
-	while (1){
-		cin >> x;
-		if (x < 1)
-			break;
-		else if (x > y)
-			y = lcm(x, y);
-		else
-			y = lcm(y, x);
-	}
-
-	printf("LCM is %d", y);
-
-
-}
-*/
-
 
 int _tmain(int argc, _TCHAR* argv[])
 {
